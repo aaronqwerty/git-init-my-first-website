@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<header>
+    <meta charset="UTF-8">
+    <title>Aaron's First Website</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/Aaron.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
+    <nav class="header ul li">
+        <ul>
+            <li class="item"><a href="https://github.com/aaronqwerty">Github</a></li>
+            <li class="item"><a href="https://www.google.com">Portfolio</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<body>
+
+<main>
+
+<section>
+    <h1>Aaron's First Website</h1>
+    <img id="fixed-image" src="./assets/images/Flamingo.png" alt="A Flamingo Pool Toy">
+
+</section>
+
+<section id="contact">
+    <h2 class="text-center">Hear from Me</h2>
+    <form>
+        <table>
+            <tr>
+              <td>Name</td>
+              <td><label class="text-right" for="name"></label>
+              <input type="text" id="name" name="user-name">
+              </td>
+            </tr>
+            <tr>
+              <td>Email
+              </td>
+              <td>
+              <label class="text-right" for="Email"></label>
+              <input type="email" id="email" name="email-address"> 
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+              <button type="submit"
+              onclick="document.getElementById('time').innerHTML = Date()">Subscribe</button>
+              </td>
+            </tr>
+          </table>
+    </form>
+ </section>
+ <p id="time"></p>
+</main>
+
+<section class="tooltip">
+    <img id="me-image" src="./assets/images/Aaron.png" alt="Cartoon image of Aaron Raikes">
+    <span class="tooltiptext">Hello
+    </span>
+</section>
+
+</body>
+
+<footer>
+    <p class="footer">Aaron Raikes 2022</p>
+</footer>
+
+</html>
